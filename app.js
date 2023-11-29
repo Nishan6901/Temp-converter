@@ -4,7 +4,7 @@ let kelvinInput = document.querySelector('#kelvin > input')
 let reaumerInput = document.querySelector('#reaumer > input')
 let rankineInput = document.querySelector('#rankine > input')
 
-let btn = document.querySelector('.button button')
+let btn = document.querySelector('.b')
 
 
 function roundNumber(number){
@@ -87,3 +87,10 @@ btn.addEventListener('click', ()=>{
     rankineInput.value = ""
 })
 
+
+      var typed = new Typed('#l', {
+        strings: ['Temperature ', 'Converter'],
+        typeSpeed: 150,
+        loop: true,
+      });
+    

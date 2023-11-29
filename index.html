@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39945d8dce.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="hh">
@@ -73,8 +77,11 @@
     <div class="title">
     </div>
 
-    <div class="title">
-        <h1>Temperature Converter</h1><br><br>
+    <div class="t1">
+      
+        <h1 id="l"></h1><br><br>
+      
+        
       <span class="Temperature-icon"><i class="fas fa-thermometer fa-shake"></i></span>
     </div>
 
@@ -91,16 +98,18 @@
         <span class="icon">K</span>
     </div>
     <div id="reaumer">
-        <input type="number" name="" placeholder="reaumer">
-        <span class="icon">R</span>
+        <input type="number" name="" placeholder="Reaumer">
+        <span class="icon">&deg;R</span>
     </div>
     <div id="rankine">
-        <input type="number" name="" placeholder="rankine">
+        <input type="number" name="" placeholder="Rankine">
         <span class="icon">Rn</span>
     </div>
-    <div class="button">
-        <button>All Clear</button>
+    <div class="c">
+        <button class="b">All Clear</button>
     </div>
+        
+    
 
 </div>
 <script src="app.js"></script>
